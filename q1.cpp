@@ -15,7 +15,7 @@ int main()
 	{
 	 sum+=a[i];
 	}
-	float avg=sum/2;
+	float avg=sum/n;
 	printf("The average is:%f\n",avg);
 	int max=0;
 	for(int i=0;i<n;i++)
