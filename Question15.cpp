@@ -9,9 +9,10 @@ int main()
 	 {
 	 	scanf("%d",&a[i]);
 	 }
+	 int count;
 	for(int i=0;i<n;i++)
 	{
-		int count=0;
+		count=0;
 	for(int j=0;j<n;j++)
 	{
 	 if(a[i]==a[j])
@@ -19,16 +20,19 @@ int main()
 	 	count++;
 	 }
 	}
-	}
+	
 	if(count>(n/2))
 	{
 		printf("%d",a[i]);
-		return(0);
+		break;
+		
 	}
-	else
-	{
-		printf("No majority element");
-	}
-	}
+	
+}
+if(count<=n/2)
+{
+ printf("No Majority Element");
+}
+	
 	return(0);
 }
