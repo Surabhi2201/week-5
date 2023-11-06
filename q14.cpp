@@ -20,7 +20,7 @@ int main()
 			{
 			 if((a[i]+a[j]+a[k]==reqsum))
 			 {
-			 	printf("%d,%d,%d",a[i],a[j],a[k]);
+			 	printf("(%d,%d,%d)",a[i],a[j],a[k]);
 			 	return(0);
 				 }	
 			}
