@@ -14,11 +14,11 @@ int main()
 		int count=0;
 	for(int j=0;j<n;j++)
 	{
-	 
-	 if(a[i]=a[j])
+	 if(a[i]==a[j])
 	 {
 	 	count++;
 	 }
+	}
 	}
 	if(count>(n/2))
 	{
