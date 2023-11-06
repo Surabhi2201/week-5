@@ -17,8 +17,10 @@ int main()
 			{
 				printf("%d",a[i]);
 			}
-			printf("\n");
+			
 		}
 	}
+	printf("\n");
+	
 	return(0);
 }
